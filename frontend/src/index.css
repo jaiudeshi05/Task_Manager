@@ -440,38 +440,42 @@ a:hover {
   background-color: var(--color-primary);
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   padding: 0 10px;
 }
 
 .task-container {
-  width: 100%;
-  max-width: 500px;
+  width: 120%;
+  max-width: 800px;
   height: auto;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
   overflow: hidden;
-  margin-top: 100px;
-  padding: 3rem 2rem;
+  margin-top: 40px;
+  padding: 3.2rem 3rem;
 }
 
 .task-form {
   width: 100%;
-  margin: 2rem 0;
-  display: flex;
+  margin: 1.6rem 0;
+  display: flex
+  gap = 1rem
+  align-items = center
+  ;
 }
 .task-form input {
-  width: 85%;
+  flex: 1;
+  width: 81%;
   height: 4rem;
   font-size: 1.6rem;
-  padding: 0 5px;
+  padding: 0 12px;
   outline: none;
   /* margin-right: 5px; */
 }
 .task-form button {
-  width: 15%;
+  width: 50px;
   height: 4rem;
   font-size: 1.8rem;
   cursor: pointer;
@@ -492,8 +496,9 @@ a:hover {
   align-items: center;
   width: 100%;
   background-color: #eee;
-  padding: 10px;
-  margin: 7px 0;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border-radius: 6px;
   animation: slide-in ease 0.5s;
 }
 

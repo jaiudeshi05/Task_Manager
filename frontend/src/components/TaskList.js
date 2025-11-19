@@ -6,7 +6,7 @@ import axios from "axios";
 import { URL } from "../App";
 import loadingImg from "../assets/loader.gif"
 
-const TaskList = () => {
+const TaskList = ({serverUrl}) => {
   const [tasks,setTasks] = useState([]);
   const [completedTasks,setCompletedTasks] = useState([]);
   const [isLoading,setIsLoading] = useState(false);
@@ -36,6 +36,8 @@ const TaskList = () => {
       setIsLoading(false);
     }
   }
+  useEffect(() => { console.log('serverUrl:', serverUrl); }, [serverUrl]);
+
 
   useEffect(()=>{
     getTasks();
