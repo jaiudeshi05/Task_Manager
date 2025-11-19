@@ -445,8 +445,7 @@ a:hover {
 }
 
 .task-container {
-  width: 120%;
-  max-width: 800px;
+  width: 1000px;
   height: auto;
   background-color: #fff;
   border: 1px solid transparent;
@@ -467,15 +466,15 @@ a:hover {
 }
 .task-form input {
   flex: 1;
-  width: 81%;
+  width: 90%;
   height: 4rem;
   font-size: 1.6rem;
   padding: 0 12px;
   outline: none;
-  /* margin-right: 5px; */
+  margin-right: 15px;
 }
 .task-form button {
-  width: 50px;
+  width: 75px;
   height: 4rem;
   font-size: 1.8rem;
   cursor: pointer;
